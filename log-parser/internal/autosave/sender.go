@@ -13,14 +13,27 @@ type Sender interface {
 }
 
 type HTTPSender struct {
-	client *http.Client
+	client         *http.Client
+	originOverride *url.URL
 }
 
 func NewHTTPSender(client *http.Client) *HTTPSender {
 	return &HTTPSender{client: client}
 }
 
+func NewHTTPSenderWithOriginOverride(client *http.Client, originURL *url.URL) *HTTPSender {
+	return &HTTPSender{client: client, originOverride: originURL}
+}
+
 func (s *HTTPSender) Send(ctx context.Context, rawURL, userID string) RequestResult {
+	if s.originOverride != nil {
+		parsed, err := url.Parse(rawURL)
+		if err == nil {
+			parsed.Scheme = s.originOverride.Scheme
+			parsed.Host = s.originOverride.Host
+			rawURL = parsed.String()
+		}
+	}
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, rawURL, nil)
 	if err != nil {
 		log.Printf("[AutoSave] Failed to build request user=%s: %v", userID, err)
