@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"net/url"
 	"os"
 	"path/filepath"
 	"strconv"
@@ -49,7 +50,18 @@ func runApp(ctx context.Context, dataDir string) error {
 	defer influxWriter.Close()
 
 	cloudRepo := cloudsave.NewJSONRepository(filepath.Join(dataDir, "cloudsave.json"))
-	queue := autosave.NewSaveDispatcher(autosave.NewHTTPSender(&http.Client{Timeout: 15 * time.Second}))
+	var httpSender autosave.Sender
+	if override := os.Getenv("AUTOSAVE_ORIGIN_OVERRIDE"); override != "" {
+		originURL, err := url.Parse(override)
+		if err != nil {
+			return fmt.Errorf("invalid AUTOSAVE_ORIGIN_OVERRIDE: %w", err)
+		}
+		httpSender = autosave.NewHTTPSenderWithOriginOverride(&http.Client{Timeout: 15 * time.Second}, originURL)
+		log.Printf("AutoSave origin override: %s", override)
+	} else {
+		httpSender = autosave.NewHTTPSender(&http.Client{Timeout: 15 * time.Second})
+	}
+	queue := autosave.NewSaveDispatcher(httpSender)
 	autosaveInterval := 1800
 	if v := os.Getenv("AUTOSAVE_INTERVAL_SECONDS"); v != "" {
 		if n, err := strconv.Atoi(v); err == nil {
