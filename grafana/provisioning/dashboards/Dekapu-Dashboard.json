@@ -93,7 +93,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -182,6 +182,8 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "enableFacetedFilter": false,
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -191,7 +193,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -291,6 +293,8 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "enableFacetedFilter": false,
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -300,7 +304,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -369,7 +373,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -429,7 +433,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -506,6 +510,7 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -520,7 +525,7 @@
         "xTickLabelRotation": 0,
         "xTickLabelSpacing": 100
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -644,7 +649,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -704,7 +709,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -764,7 +769,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -824,7 +829,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -884,7 +889,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -944,7 +949,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1004,7 +1009,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1064,7 +1069,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1124,7 +1129,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1184,7 +1189,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1244,7 +1249,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1304,7 +1309,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1364,7 +1369,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1424,7 +1429,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1484,7 +1489,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1544,7 +1549,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1616,7 +1621,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1676,7 +1681,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1736,7 +1741,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1796,7 +1801,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1909,6 +1914,8 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "enableFacetedFilter": false,
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -1918,7 +1925,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -1978,7 +1985,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2038,7 +2045,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2098,7 +2105,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2158,7 +2165,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2250,7 +2257,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2310,7 +2317,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2370,7 +2377,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2430,7 +2437,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2522,7 +2529,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2582,7 +2589,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2642,7 +2649,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2702,7 +2709,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2798,7 +2805,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2858,7 +2865,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2918,7 +2925,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -2978,7 +2985,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -3038,7 +3045,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -3098,7 +3105,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -3158,7 +3165,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -3260,6 +3267,8 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "enableFacetedFilter": false,
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": true
         },
@@ -3269,7 +3278,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -3346,6 +3355,7 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -3360,7 +3370,7 @@
         "xTickLabelRotation": 0,
         "xTickLabelSpacing": 100
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -3449,6 +3459,8 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "enableFacetedFilter": false,
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -3458,7 +3470,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -3530,7 +3542,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -3590,7 +3602,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -3668,6 +3680,7 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -3682,7 +3695,7 @@
         "xTickLabelRotation": 0,
         "xTickLabelSpacing": 100
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -3759,6 +3772,7 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -3773,7 +3787,7 @@
         "xTickLabelRotation": 0,
         "xTickLabelSpacing": 100
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -3884,6 +3898,8 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "enableFacetedFilter": false,
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": true
         },
@@ -3893,7 +3909,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -3961,7 +3977,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -4021,7 +4037,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -4081,7 +4097,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -4141,7 +4157,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -4216,7 +4232,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -4361,6 +4377,7 @@
         },
         "legend": {
           "displayMode": "list",
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -4373,7 +4390,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -4445,7 +4462,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -4521,6 +4538,7 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "overflow": "ellipsis",
           "placement": "right",
           "showLegend": true
         },
@@ -4535,14 +4553,14 @@
         "xTickLabelRotation": 0,
         "xTickLabelSpacing": 100
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
             "type": "influxdb",
             "uid": "beyps6l9ombk0e"
           },
-          "query": "import \"strings\"\r\n\r\nfrom(bucket: \"dekapu-log\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\")\r\n  |> filter(fn: (r) => r._field =~ /^dc_ball_get_/)\r\n  |> filter(fn: (r) => r.user == \"${user}\")\r\n  |> aggregateWindow(every: 1h, fn: last, createEmpty: true, timeSrc: \"_start\")\r\n  |> difference(nonNegative: true)\r\n  |> fill(column: \"_value\", value: 0)\r\n  |> map(fn: (r) => ({\r\n        r with\r\n        _field:\r\n          if r._field == \"dc_ball_get_0\" then \"ノーマル\"\r\n          else if r._field == \"dc_ball_get_1\" then \"橙\"\r\n          else if r._field == \"dc_ball_get_2\" then \"緑\"\r\n          else if r._field == \"dc_ball_get_3\" then \"レインボー\"\r\n          else if r._field == \"dc_ball_get_4\" then \"ピンク\"\r\n          else if r._field == \"dc_ball_get_5\" then \"紫\"\r\n          else if r._field == \"dc_ball_get_6\" then \"白\"\r\n          else if r._field == \"dc_ball_get_7\" then \"水色\"\r\n          else if r._field == \"dc_ball_get_8\" then \"灰桜\"\r\n          else if r._field == \"dc_ball_get_9\" then \"群青\"\r\n          else if r._field == \"dc_ball_get_10\" then \"赤\"\r\n          else if r._field == \"dc_ball_get_11\" then \"クリーム\"\r\n          else if r._field == \"dc_ball_get_12\" then \"ミント\"\r\n          else if r._field == \"dc_ball_get_13\" then \"ピーチ\"\r\n          else if r._field == \"dc_ball_get_14\" then \"星空\"\r\n          else if r._field == \"dc_ball_get_15\" then \"草原\"\r\n          else if r._field == \"dc_ball_get_16\" then \"黒\"\r\n          else if r._field == \"dc_ball_get_17\" then \"黄色\"\r\n          else if r._field == \"dc_ball_get_18\" then \"ラベンダー\"\r\n          else if r._field == \"dc_ball_get_19\" then \"ライム\"\r\n          else if r._field == \"dc_ball_get_20\" then \"若葉\"\r\n          else if r._field == \"dc_ball_get_70\" then \"参照エラー\"\r\n          else if r._field == \"dc_ball_get_71\" then \"デベロッパー\"\r\n          else if r._field == \"dc_ball_get_90\" then \"旧緑\"\r\n          else if r._field == \"dc_ball_get_91\" then \"橙（特殊）\"\r\n          else if r._field == \"dc_ball_get_100\" then \"ゴールデン\"\r\n          else if r._field == \"dc_ball_get_101\" then \"アメジスト\"\r\n          else if r._field == \"dc_ball_get_102\" then \"エメラルド\"\r\n          else if r._field == \"dc_ball_get_103\" then \"ローズクォーツ\"\r\n          else if r._field == \"dc_ball_get_104\" then \"トパーズ\"\r\n          else if r._field == \"dc_ball_get_105\" then \"サファイア\"\r\n          else if r._field == \"dc_ball_get_334\" then \"抽選ボール\"\r\n          else if r._field == \"dc_ball_get_335\" then \"抽選（ボーナス）\"\r\n          else strings.replace(v: r._field, t: \"dc_ball_get_\", u: \"ID:\", i: 1)\r\n      }))\r\n  |> keep(columns: [\"_time\", \"_field\", \"_value\"])",
+          "query": "import \"strings\"\r\n\r\nfrom(bucket: \"dekapu-log\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\")\r\n  |> filter(fn: (r) => r._field =~ /^dc_ball_get_/)\r\n  |> filter(fn: (r) => r.user == \"${user}\")\r\n  |> aggregateWindow(every: 1h, fn: last, createEmpty: true, timeSrc: \"_start\")\r\n  |> difference(nonNegative: true)\r\n  |> fill(column: \"_value\", value: 0)\r\n  |> map(fn: (r) => ({\r\n        r with\r\n        _field:\r\n          if r._field == \"dc_ball_get_0\" then \"ノーマル\"\r\n          else if r._field == \"dc_ball_get_1\" then \"橙\"\r\n          else if r._field == \"dc_ball_get_2\" then \"緑\"\r\n          else if r._field == \"dc_ball_get_3\" then \"レインボー\"\r\n          else if r._field == \"dc_ball_get_4\" then \"ピンク\"\r\n          else if r._field == \"dc_ball_get_5\" then \"紫\"\r\n          else if r._field == \"dc_ball_get_6\" then \"白\"\r\n          else if r._field == \"dc_ball_get_7\" then \"水色\"\r\n          else if r._field == \"dc_ball_get_8\" then \"灰桜\"\r\n          else if r._field == \"dc_ball_get_9\" then \"群青\"\r\n          else if r._field == \"dc_ball_get_10\" then \"赤\"\r\n          else if r._field == \"dc_ball_get_11\" then \"クリーム\"\r\n          else if r._field == \"dc_ball_get_12\" then \"ミント\"\r\n          else if r._field == \"dc_ball_get_13\" then \"ピーチ\"\r\n          else if r._field == \"dc_ball_get_14\" then \"星空\"\r\n          else if r._field == \"dc_ball_get_15\" then \"草原\"\r\n          else if r._field == \"dc_ball_get_16\" then \"黒\"\r\n          else if r._field == \"dc_ball_get_17\" then \"黄色\"\r\n          else if r._field == \"dc_ball_get_18\" then \"ラベンダー\"\r\n          else if r._field == \"dc_ball_get_19\" then \"ライム\"\r\n          else if r._field == \"dc_ball_get_20\" then \"若葉\"\r\n          else if r._field == \"dc_ball_get_70\" then \"参照エラー\"\r\n          else if r._field == \"dc_ball_get_71\" then \"デベロッパー\"\r\n          else if r._field == \"dc_ball_get_90\" then \"旧緑\"\r\n          else if r._field == \"dc_ball_get_91\" then \"橙（特殊）\"\r\n          else if r._field == \"dc_ball_get_100\" then \"ゴールデン\"\r\n          else if r._field == \"dc_ball_get_101\" then \"アメジスト\"\r\n          else if r._field == \"dc_ball_get_102\" then \"エメラルド\"\r\n          else if r._field == \"dc_ball_get_103\" then \"ローズクォーツ\"\r\n          else if r._field == \"dc_ball_get_104\" then \"トパーズ\"\r\n          else if r._field == \"dc_ball_get_105\" then \"サファイア\"\r\n          else if r._field == \"dc_ball_get_106\" then \"ダイヤモンド\"\r\n          else if r._field == \"dc_ball_get_334\" then \"抽選ボール\"\r\n          else if r._field == \"dc_ball_get_335\" then \"抽選（ボーナス）\"\r\n          else strings.replace(v: r._field, t: \"dc_ball_get_\", u: \"ID:\", i: 1)\r\n      }))\r\n  |> keep(columns: [\"_time\", \"_field\", \"_value\"])",
           "refId": "A"
         }
       ],
@@ -4607,6 +4625,7 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "overflow": "ellipsis",
           "placement": "right",
           "showLegend": true
         },
@@ -4622,14 +4641,14 @@
         "xTickLabelRotation": 0,
         "xTickLabelSpacing": 100
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
             "type": "influxdb",
             "uid": "beyps6l9ombk0e"
           },
-          "query": "import \"strings\"\r\n\r\ndata = from(bucket: \"dekapu-log\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\")\r\n  |> filter(fn: (r) => r._field =~ /^dc_ball_get_/)\r\n  |> filter(fn: (r) => r.user == \"${user}\")\r\n  |> aggregateWindow(every: 1h, fn: last, createEmpty: false, timeSrc: \"_start\")\r\n  |> difference(nonNegative: true)\r\n  |> map(fn: (r) => ({\r\n        r with\r\n        _field:\r\n          if r._field == \"dc_ball_get_0\" then \"ノーマル\"\r\n          else if r._field == \"dc_ball_get_1\" then \"橙\"\r\n          else if r._field == \"dc_ball_get_2\" then \"緑\"\r\n          else if r._field == \"dc_ball_get_3\" then \"レインボー\"\r\n          else if r._field == \"dc_ball_get_4\" then \"ピンク\"\r\n          else if r._field == \"dc_ball_get_5\" then \"紫\"\r\n          else if r._field == \"dc_ball_get_6\" then \"白\"\r\n          else if r._field == \"dc_ball_get_7\" then \"水色\"\r\n          else if r._field == \"dc_ball_get_8\" then \"灰桜\"\r\n          else if r._field == \"dc_ball_get_9\" then \"群青\"\r\n          else if r._field == \"dc_ball_get_10\" then \"赤\"\r\n          else if r._field == \"dc_ball_get_11\" then \"クリーム\"\r\n          else if r._field == \"dc_ball_get_12\" then \"ミント\"\r\n          else if r._field == \"dc_ball_get_13\" then \"ピーチ\"\r\n          else if r._field == \"dc_ball_get_14\" then \"星空\"\r\n          else if r._field == \"dc_ball_get_15\" then \"草原\"\r\n          else if r._field == \"dc_ball_get_16\" then \"黒\"\r\n          else if r._field == \"dc_ball_get_17\" then \"黄色\"\r\n          else if r._field == \"dc_ball_get_18\" then \"ラベンダー\"\r\n          else if r._field == \"dc_ball_get_19\" then \"ライム\"\r\n          else if r._field == \"dc_ball_get_20\" then \"若葉\"\r\n          else if r._field == \"dc_ball_get_70\" then \"参照エラー\"\r\n          else if r._field == \"dc_ball_get_71\" then \"デベロッパー\"\r\n          else if r._field == \"dc_ball_get_90\" then \"旧緑\"\r\n          else if r._field == \"dc_ball_get_91\" then \"橙（特殊）\"\r\n          else if r._field == \"dc_ball_get_100\" then \"ゴールデン\"\r\n          else if r._field == \"dc_ball_get_101\" then \"アメジスト\"\r\n          else if r._field == \"dc_ball_get_102\" then \"エメラルド\"\r\n          else if r._field == \"dc_ball_get_103\" then \"ローズクォーツ\"\r\n          else if r._field == \"dc_ball_get_104\" then \"トパーズ\"\r\n          else if r._field == \"dc_ball_get_105\" then \"サファイア\"\r\n          else if r._field == \"dc_ball_get_334\" then \"抽選ボール\"\r\n          else if r._field == \"dc_ball_get_335\" then \"抽選（ボーナス）\"\r\n          else strings.replace(v: r._field, t: \"dc_ball_get_\", u: \"ID:\", i: 1)\r\n      }))\r\n  |> keep(columns: [\"_time\", \"_field\", \"_value\"])\r\n\r\ntotals = data\r\n  |> group(columns: [\"_time\"])\r\n  |> sum(column: \"_value\")\r\n  |> rename(columns: {_value: \"total\"})\r\n\r\njoin(\r\n  tables: {d: data, t: totals},\r\n  on: [\"_time\"]\r\n)\r\n  |> map(fn: (r) => ({\r\n      _time: r._time,\r\n      _field: r._field,\r\n      _value: float(v: r._value) / float(v: r.total) * 100.0\r\n  }))\r\n  |> group(columns: [\"_field\"])\r\n  \r\n",
+          "query": "import \"strings\"\r\n\r\ndata = from(bucket: \"dekapu-log\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\")\r\n  |> filter(fn: (r) => r._field =~ /^dc_ball_get_/)\r\n  |> filter(fn: (r) => r.user == \"${user}\")\r\n  |> aggregateWindow(every: 1h, fn: last, createEmpty: false, timeSrc: \"_start\")\r\n  |> difference(nonNegative: true)\r\n  |> map(fn: (r) => ({\r\n        r with\r\n        _field:\r\n          if r._field == \"dc_ball_get_0\" then \"ノーマル\"\r\n          else if r._field == \"dc_ball_get_1\" then \"橙\"\r\n          else if r._field == \"dc_ball_get_2\" then \"緑\"\r\n          else if r._field == \"dc_ball_get_3\" then \"レインボー\"\r\n          else if r._field == \"dc_ball_get_4\" then \"ピンク\"\r\n          else if r._field == \"dc_ball_get_5\" then \"紫\"\r\n          else if r._field == \"dc_ball_get_6\" then \"白\"\r\n          else if r._field == \"dc_ball_get_7\" then \"水色\"\r\n          else if r._field == \"dc_ball_get_8\" then \"灰桜\"\r\n          else if r._field == \"dc_ball_get_9\" then \"群青\"\r\n          else if r._field == \"dc_ball_get_10\" then \"赤\"\r\n          else if r._field == \"dc_ball_get_11\" then \"クリーム\"\r\n          else if r._field == \"dc_ball_get_12\" then \"ミント\"\r\n          else if r._field == \"dc_ball_get_13\" then \"ピーチ\"\r\n          else if r._field == \"dc_ball_get_14\" then \"星空\"\r\n          else if r._field == \"dc_ball_get_15\" then \"草原\"\r\n          else if r._field == \"dc_ball_get_16\" then \"黒\"\r\n          else if r._field == \"dc_ball_get_17\" then \"黄色\"\r\n          else if r._field == \"dc_ball_get_18\" then \"ラベンダー\"\r\n          else if r._field == \"dc_ball_get_19\" then \"ライム\"\r\n          else if r._field == \"dc_ball_get_20\" then \"若葉\"\r\n          else if r._field == \"dc_ball_get_70\" then \"参照エラー\"\r\n          else if r._field == \"dc_ball_get_71\" then \"デベロッパー\"\r\n          else if r._field == \"dc_ball_get_90\" then \"旧緑\"\r\n          else if r._field == \"dc_ball_get_91\" then \"橙（特殊）\"\r\n          else if r._field == \"dc_ball_get_100\" then \"ゴールデン\"\r\n          else if r._field == \"dc_ball_get_101\" then \"アメジスト\"\r\n          else if r._field == \"dc_ball_get_102\" then \"エメラルド\"\r\n          else if r._field == \"dc_ball_get_103\" then \"ローズクォーツ\"\r\n          else if r._field == \"dc_ball_get_104\" then \"トパーズ\"\r\n          else if r._field == \"dc_ball_get_105\" then \"サファイア\"\r\n          else if r._field == \"dc_ball_get_106\" then \"ダイヤモンド\"\r\n          else if r._field == \"dc_ball_get_334\" then \"抽選ボール\"\r\n          else if r._field == \"dc_ball_get_335\" then \"抽選（ボーナス）\"\r\n          else strings.replace(v: r._field, t: \"dc_ball_get_\", u: \"ID:\", i: 1)\r\n      }))\r\n  |> keep(columns: [\"_time\", \"_field\", \"_value\"])\r\n\r\ntotals = data\r\n  |> group(columns: [\"_time\"])\r\n  |> sum(column: \"_value\")\r\n  |> rename(columns: {_value: \"total\"})\r\n\r\njoin(\r\n  tables: {d: data, t: totals},\r\n  on: [\"_time\"]\r\n)\r\n  |> map(fn: (r) => ({\r\n      _time: r._time,\r\n      _field: r._field,\r\n      _value: float(v: r._value) / float(v: r.total) * 100.0\r\n  }))\r\n  |> group(columns: [\"_field\"])\r\n  \r\n",
           "refId": "A"
         }
       ],
@@ -4682,7 +4701,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -4771,6 +4790,8 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "enableFacetedFilter": false,
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -4780,7 +4801,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -4843,14 +4864,14 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
             "type": "influxdb",
             "uid": "beyps6l9ombk0e"
           },
-          "query": "import \"strings\"\r\n\r\nfrom(bucket: \"dekapu-log\")\r\n  |> range(start: -1d)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\")\r\n  |> filter(fn: (r) => r._field =~ /^dc_ball_get_/)\r\n  |> filter(fn: (r) => r.user == \"${user}\")\r\n  |> last()\r\n  |> map(fn: (r) => ({\r\n        r with\r\n        _field:\r\n          if r._field == \"dc_ball_get_0\" then \"ノーマル\"\r\n          else if r._field == \"dc_ball_get_1\" then \"橙\"\r\n          else if r._field == \"dc_ball_get_2\" then \"緑\"\r\n          else if r._field == \"dc_ball_get_3\" then \"レインボー\"\r\n          else if r._field == \"dc_ball_get_4\" then \"ピンク\"\r\n          else if r._field == \"dc_ball_get_5\" then \"紫\"\r\n          else if r._field == \"dc_ball_get_6\" then \"白\"\r\n          else if r._field == \"dc_ball_get_7\" then \"水色\"\r\n          else if r._field == \"dc_ball_get_8\" then \"灰桜\"\r\n          else if r._field == \"dc_ball_get_9\" then \"群青\"\r\n          else if r._field == \"dc_ball_get_10\" then \"赤\"\r\n          else if r._field == \"dc_ball_get_11\" then \"クリーム\"\r\n          else if r._field == \"dc_ball_get_12\" then \"ミント\"\r\n          else if r._field == \"dc_ball_get_13\" then \"ピーチ\"\r\n          else if r._field == \"dc_ball_get_14\" then \"星空\"\r\n          else if r._field == \"dc_ball_get_15\" then \"草原\"\r\n          else if r._field == \"dc_ball_get_16\" then \"黒\"\r\n          else if r._field == \"dc_ball_get_17\" then \"黄色\"\r\n          else if r._field == \"dc_ball_get_18\" then \"ラベンダー\"\r\n          else if r._field == \"dc_ball_get_19\" then \"ライム\"\r\n          else if r._field == \"dc_ball_get_20\" then \"若葉\"\r\n          else if r._field == \"dc_ball_get_70\" then \"参照エラー\"\r\n          else if r._field == \"dc_ball_get_71\" then \"デベロッパー\"\r\n          else if r._field == \"dc_ball_get_90\" then \"旧緑\"\r\n          else if r._field == \"dc_ball_get_91\" then \"橙（特殊）\"\r\n          else if r._field == \"dc_ball_get_100\" then \"ゴールデン\"\r\n          else if r._field == \"dc_ball_get_101\" then \"アメジスト\"\r\n          else if r._field == \"dc_ball_get_102\" then \"エメラルド\"\r\n          else if r._field == \"dc_ball_get_103\" then \"ローズクォーツ\"\r\n          else if r._field == \"dc_ball_get_104\" then \"トパーズ\"\r\n          else if r._field == \"dc_ball_get_105\" then \"サファイア\"\r\n          else if r._field == \"dc_ball_get_334\" then \"抽選ボール\"\r\n          else if r._field == \"dc_ball_get_335\" then \"抽選（ボーナス）\"\r\n          else strings.replace(v: r._field, t: \"dc_ball_get_\", u: \"ID:\", i: 1)\r\n      }))\r\n  |> keep(columns: [\"_time\", \"_field\", \"_value\"])\r\n  |> pivot(rowKey:[\"_time\"], columnKey: [\"_field\"], valueColumn: \"_value\")\r\n  |> drop(columns: [\"_time\"])\r\n",
+          "query": "import \"strings\"\r\n\r\nfrom(bucket: \"dekapu-log\")\r\n  |> range(start: -1d)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\")\r\n  |> filter(fn: (r) => r._field =~ /^dc_ball_get_/)\r\n  |> filter(fn: (r) => r.user == \"${user}\")\r\n  |> last()\r\n  |> map(fn: (r) => ({\r\n        r with\r\n        _field:\r\n          if r._field == \"dc_ball_get_0\" then \"ノーマル\"\r\n          else if r._field == \"dc_ball_get_1\" then \"橙\"\r\n          else if r._field == \"dc_ball_get_2\" then \"緑\"\r\n          else if r._field == \"dc_ball_get_3\" then \"レインボー\"\r\n          else if r._field == \"dc_ball_get_4\" then \"ピンク\"\r\n          else if r._field == \"dc_ball_get_5\" then \"紫\"\r\n          else if r._field == \"dc_ball_get_6\" then \"白\"\r\n          else if r._field == \"dc_ball_get_7\" then \"水色\"\r\n          else if r._field == \"dc_ball_get_8\" then \"灰桜\"\r\n          else if r._field == \"dc_ball_get_9\" then \"群青\"\r\n          else if r._field == \"dc_ball_get_10\" then \"赤\"\r\n          else if r._field == \"dc_ball_get_11\" then \"クリーム\"\r\n          else if r._field == \"dc_ball_get_12\" then \"ミント\"\r\n          else if r._field == \"dc_ball_get_13\" then \"ピーチ\"\r\n          else if r._field == \"dc_ball_get_14\" then \"星空\"\r\n          else if r._field == \"dc_ball_get_15\" then \"草原\"\r\n          else if r._field == \"dc_ball_get_16\" then \"黒\"\r\n          else if r._field == \"dc_ball_get_17\" then \"黄色\"\r\n          else if r._field == \"dc_ball_get_18\" then \"ラベンダー\"\r\n          else if r._field == \"dc_ball_get_19\" then \"ライム\"\r\n          else if r._field == \"dc_ball_get_20\" then \"若葉\"\r\n          else if r._field == \"dc_ball_get_70\" then \"参照エラー\"\r\n          else if r._field == \"dc_ball_get_71\" then \"デベロッパー\"\r\n          else if r._field == \"dc_ball_get_90\" then \"旧緑\"\r\n          else if r._field == \"dc_ball_get_91\" then \"橙（特殊）\"\r\n          else if r._field == \"dc_ball_get_100\" then \"ゴールデン\"\r\n          else if r._field == \"dc_ball_get_101\" then \"アメジスト\"\r\n          else if r._field == \"dc_ball_get_102\" then \"エメラルド\"\r\n          else if r._field == \"dc_ball_get_103\" then \"ローズクォーツ\"\r\n          else if r._field == \"dc_ball_get_104\" then \"トパーズ\"\r\n          else if r._field == \"dc_ball_get_105\" then \"サファイア\"\r\n          else if r._field == \"dc_ball_get_106\" then \"ダイヤモンド\"\r\n          else if r._field == \"dc_ball_get_334\" then \"抽選ボール\"\r\n          else if r._field == \"dc_ball_get_335\" then \"抽選（ボーナス）\"\r\n          else strings.replace(v: r._field, t: \"dc_ball_get_\", u: \"ID:\", i: 1)\r\n      }))\r\n  |> keep(columns: [\"_time\", \"_field\", \"_value\"])\r\n  |> pivot(rowKey:[\"_time\"], columnKey: [\"_field\"], valueColumn: \"_value\")\r\n  |> drop(columns: [\"_time\"])\r\n",
           "refId": "A"
         }
       ],
@@ -4908,14 +4929,14 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
             "type": "influxdb",
             "uid": "beyps6l9ombk0e"
           },
-          "query": "import \"timezone\"\r\nimport \"strings\"\r\n\r\noption location = timezone.location(name: \"Asia/Tokyo\")\r\n\r\nball = from(bucket: \"dekapu-log\")\r\n  |> range(start: -2d)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\" and r._field == \"ball_get\" and r.user == \"${user}\")\r\n  |> aggregateWindow(every: 1d, offset: 9h, fn: last, createEmpty: false)\r\n  |> difference(nonNegative: true)\r\n\r\nballs = from(bucket: \"dekapu-log\")\r\n  |> range(start: -2d)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\" and r._field =~ /^dc_ball_get_/ and r.user == \"${user}\")\r\n  |> aggregateWindow(every: 1d, offset: 9h, fn: last, createEmpty: false)\r\n  |> difference(nonNegative: true)\r\n\r\njoin(\r\n  tables: {balls: balls, ball: ball},\r\n  on: [\"_time\"],\r\n)\r\n  |> map(fn: (r) => ({\r\n        r with\r\n        _value: if r._value_ball == 0.0 then 0.0 else float(v: r._value_balls) / float(v: r._value_ball) * 100.0\r\n      }))\r\n  |> keep(columns: [\"_time\", \"_field_balls\", \"_value\"])\r\n  |> difference(nonNegative: false, columns: [\"_value\"])\r\n  |> map(fn: (r) => ({\r\n        r with\r\n        _field_balls:\r\n          if r._field_balls == \"dc_ball_get_0\" then \"ノーマル\"\r\n          else if r._field_balls == \"dc_ball_get_1\" then \"橙\"\r\n          else if r._field_balls == \"dc_ball_get_2\" then \"緑\"\r\n          else if r._field_balls == \"dc_ball_get_3\" then \"レインボー\"\r\n          else if r._field_balls == \"dc_ball_get_4\" then \"ピンク\"\r\n          else if r._field_balls == \"dc_ball_get_5\" then \"紫\"\r\n          else if r._field_balls == \"dc_ball_get_6\" then \"白\"\r\n          else if r._field_balls == \"dc_ball_get_7\" then \"水色\"\r\n          else if r._field_balls == \"dc_ball_get_8\" then \"灰桜\"\r\n          else if r._field_balls == \"dc_ball_get_9\" then \"群青\"\r\n          else if r._field_balls == \"dc_ball_get_10\" then \"赤\"\r\n          else if r._field_balls == \"dc_ball_get_11\" then \"クリーム\"\r\n          else if r._field_balls == \"dc_ball_get_12\" then \"ミント\"\r\n          else if r._field_balls == \"dc_ball_get_13\" then \"ピーチ\"\r\n          else if r._field_balls == \"dc_ball_get_14\" then \"星空\"\r\n          else if r._field_balls == \"dc_ball_get_15\" then \"草原\"\r\n          else if r._field_balls == \"dc_ball_get_16\" then \"黒\"\r\n          else if r._field_balls == \"dc_ball_get_17\" then \"黄色\"\r\n          else if r._field_balls == \"dc_ball_get_18\" then \"ラベンダー\"\r\n          else if r._field_balls == \"dc_ball_get_19\" then \"ライム\"\r\n          else if r._field_balls == \"dc_ball_get_20\" then \"若葉\"\r\n          else if r._field_balls == \"dc_ball_get_70\" then \"参照エラー\"\r\n          else if r._field_balls == \"dc_ball_get_71\" then \"デベロッパー\"\r\n          else if r._field_balls == \"dc_ball_get_90\" then \"旧緑\"\r\n          else if r._field_balls == \"dc_ball_get_91\" then \"橙（特殊）\"\r\n          else if r._field_balls == \"dc_ball_get_100\" then \"ゴールデン\"\r\n          else if r._field_balls == \"dc_ball_get_101\" then \"アメジスト\"\r\n          else if r._field_balls == \"dc_ball_get_102\" then \"エメラルド\"\r\n          else if r._field_balls == \"dc_ball_get_103\" then \"ローズクォーツ\"\r\n          else if r._field_balls == \"dc_ball_get_104\" then \"トパーズ\"\r\n          else if r._field_balls == \"dc_ball_get_105\" then \"サファイア\"\r\n          else if r._field_balls == \"dc_ball_get_334\" then \"抽選ボール\"\r\n          else if r._field_balls == \"dc_ball_get_335\" then \"抽選（ボーナス）\"\r\n          else strings.replace(v: r._field_balls, t: \"dc_ball_get_\", u: \"ID:\", i: 1)\r\n      }))\r\n",
+          "query": "import \"timezone\"\r\nimport \"strings\"\r\n\r\noption location = timezone.location(name: \"Asia/Tokyo\")\r\n\r\nball = from(bucket: \"dekapu-log\")\r\n  |> range(start: -2d)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\" and r._field == \"ball_get\" and r.user == \"${user}\")\r\n  |> aggregateWindow(every: 1d, offset: 9h, fn: last, createEmpty: false)\r\n  |> difference(nonNegative: true)\r\n\r\nballs = from(bucket: \"dekapu-log\")\r\n  |> range(start: -2d)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\" and r._field =~ /^dc_ball_get_/ and r.user == \"${user}\")\r\n  |> aggregateWindow(every: 1d, offset: 9h, fn: last, createEmpty: false)\r\n  |> difference(nonNegative: true)\r\n\r\njoin(\r\n  tables: {balls: balls, ball: ball},\r\n  on: [\"_time\"],\r\n)\r\n  |> map(fn: (r) => ({\r\n        r with\r\n        _value: if r._value_ball == 0.0 then 0.0 else float(v: r._value_balls) / float(v: r._value_ball) * 100.0\r\n      }))\r\n  |> keep(columns: [\"_time\", \"_field_balls\", \"_value\"])\r\n  |> difference(nonNegative: false, columns: [\"_value\"])\r\n  |> map(fn: (r) => ({\r\n        r with\r\n        _field_balls:\r\n          if r._field_balls == \"dc_ball_get_0\" then \"ノーマル\"\r\n          else if r._field_balls == \"dc_ball_get_1\" then \"橙\"\r\n          else if r._field_balls == \"dc_ball_get_2\" then \"緑\"\r\n          else if r._field_balls == \"dc_ball_get_3\" then \"レインボー\"\r\n          else if r._field_balls == \"dc_ball_get_4\" then \"ピンク\"\r\n          else if r._field_balls == \"dc_ball_get_5\" then \"紫\"\r\n          else if r._field_balls == \"dc_ball_get_6\" then \"白\"\r\n          else if r._field_balls == \"dc_ball_get_7\" then \"水色\"\r\n          else if r._field_balls == \"dc_ball_get_8\" then \"灰桜\"\r\n          else if r._field_balls == \"dc_ball_get_9\" then \"群青\"\r\n          else if r._field_balls == \"dc_ball_get_10\" then \"赤\"\r\n          else if r._field_balls == \"dc_ball_get_11\" then \"クリーム\"\r\n          else if r._field_balls == \"dc_ball_get_12\" then \"ミント\"\r\n          else if r._field_balls == \"dc_ball_get_13\" then \"ピーチ\"\r\n          else if r._field_balls == \"dc_ball_get_14\" then \"星空\"\r\n          else if r._field_balls == \"dc_ball_get_15\" then \"草原\"\r\n          else if r._field_balls == \"dc_ball_get_16\" then \"黒\"\r\n          else if r._field_balls == \"dc_ball_get_17\" then \"黄色\"\r\n          else if r._field_balls == \"dc_ball_get_18\" then \"ラベンダー\"\r\n          else if r._field_balls == \"dc_ball_get_19\" then \"ライム\"\r\n          else if r._field_balls == \"dc_ball_get_20\" then \"若葉\"\r\n          else if r._field_balls == \"dc_ball_get_70\" then \"参照エラー\"\r\n          else if r._field_balls == \"dc_ball_get_71\" then \"デベロッパー\"\r\n          else if r._field_balls == \"dc_ball_get_90\" then \"旧緑\"\r\n          else if r._field_balls == \"dc_ball_get_91\" then \"橙（特殊）\"\r\n          else if r._field_balls == \"dc_ball_get_100\" then \"ゴールデン\"\r\n          else if r._field_balls == \"dc_ball_get_101\" then \"アメジスト\"\r\n          else if r._field_balls == \"dc_ball_get_102\" then \"エメラルド\"\r\n          else if r._field_balls == \"dc_ball_get_103\" then \"ローズクォーツ\"\r\n          else if r._field_balls == \"dc_ball_get_104\" then \"トパーズ\"\r\n          else if r._field_balls == \"dc_ball_get_105\" then \"サファイア\"\r\n          else if r._field_balls == \"dc_ball_get_106\" then \"ダイヤモンド\"\r\n          else if r._field_balls == \"dc_ball_get_334\" then \"抽選ボール\"\r\n          else if r._field_balls == \"dc_ball_get_335\" then \"抽選（ボーナス）\"\r\n          else strings.replace(v: r._field_balls, t: \"dc_ball_get_\", u: \"ID:\", i: 1)\r\n      }))\r\n",
           "refId": "A"
         }
       ],
@@ -4971,14 +4992,14 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
             "type": "influxdb",
             "uid": "beyps6l9ombk0e"
           },
-          "query": "import \"strings\"\r\n\r\nfrom(bucket: \"dekapu-log\")\r\n  |> range(start: -1d)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\")\r\n  |> filter(fn: (r) => r._field =~ /^dc_ball_chain_/)\r\n  |> filter(fn: (r) => r.user == \"${user}\")\r\n  |> last()\r\n  |> map(fn: (r) => ({\r\n        r with\r\n        _field:\r\n          if r._field == \"dc_ball_chain_0\" then \"ノーマル\"\r\n          else if r._field == \"dc_ball_chain_1\" then \"橙\"\r\n          else if r._field == \"dc_ball_chain_2\" then \"緑\"\r\n          else if r._field == \"dc_ball_chain_3\" then \"レインボー\"\r\n          else if r._field == \"dc_ball_chain_4\" then \"ピンク\"\r\n          else if r._field == \"dc_ball_chain_5\" then \"紫\"\r\n          else if r._field == \"dc_ball_chain_6\" then \"白\"\r\n          else if r._field == \"dc_ball_chain_7\" then \"水色\"\r\n          else if r._field == \"dc_ball_chain_8\" then \"灰桜\"\r\n          else if r._field == \"dc_ball_chain_9\" then \"群青\"\r\n          else if r._field == \"dc_ball_chain_10\" then \"赤\"\r\n          else if r._field == \"dc_ball_chain_11\" then \"クリーム\"\r\n          else if r._field == \"dc_ball_chain_12\" then \"ミント\"\r\n          else if r._field == \"dc_ball_chain_13\" then \"ピーチ\"\r\n          else if r._field == \"dc_ball_chain_14\" then \"星空\"\r\n          else if r._field == \"dc_ball_chain_15\" then \"草原\"\r\n          else if r._field == \"dc_ball_chain_16\" then \"黒\"\r\n          else if r._field == \"dc_ball_chain_17\" then \"黄色\"\r\n          else if r._field == \"dc_ball_chain_18\" then \"ラベンダー\"\r\n          else if r._field == \"dc_ball_chain_19\" then \"ライム\"\r\n          else if r._field == \"dc_ball_chain_20\" then \"若葉\"\r\n          else if r._field == \"dc_ball_chain_70\" then \"参照エラー\"\r\n          else if r._field == \"dc_ball_chain_71\" then \"デベロッパー\"\r\n          else if r._field == \"dc_ball_chain_90\" then \"旧緑\"\r\n          else if r._field == \"dc_ball_chain_91\" then \"橙（特殊）\"\r\n          else if r._field == \"dc_ball_chain_100\" then \"ゴールデン\"\r\n          else if r._field == \"dc_ball_chain_101\" then \"アメジスト\"\r\n          else if r._field == \"dc_ball_chain_102\" then \"エメラルド\"\r\n          else if r._field == \"dc_ball_chain_103\" then \"ローズクォーツ\"\r\n          else if r._field == \"dc_ball_chain_104\" then \"トパーズ\"\r\n          else if r._field == \"dc_ball_chain_105\" then \"サファイア\"\r\n          else if r._field == \"dc_ball_chain_334\" then \"抽選ボール\"\r\n          else if r._field == \"dc_ball_chain_335\" then \"抽選（ボーナス）\"\r\n          else strings.replace(v: r._field, t: \"dc_ball_chain_\", u: \"ID:\", i: 1)\r\n      }))\r\n  |> keep(columns: [\"_time\", \"_field\", \"_value\"])\r\n  |> pivot(rowKey:[\"_time\"], columnKey: [\"_field\"], valueColumn: \"_value\")\r\n  |> drop(columns: [\"_time\"])\r\n",
+          "query": "import \"strings\"\r\n\r\nfrom(bucket: \"dekapu-log\")\r\n  |> range(start: -1d)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\")\r\n  |> filter(fn: (r) => r._field =~ /^dc_ball_chain_/)\r\n  |> filter(fn: (r) => r.user == \"${user}\")\r\n  |> last()\r\n  |> map(fn: (r) => ({\r\n        r with\r\n        _field:\r\n          if r._field == \"dc_ball_chain_0\" then \"ノーマル\"\r\n          else if r._field == \"dc_ball_chain_1\" then \"橙\"\r\n          else if r._field == \"dc_ball_chain_2\" then \"緑\"\r\n          else if r._field == \"dc_ball_chain_3\" then \"レインボー\"\r\n          else if r._field == \"dc_ball_chain_4\" then \"ピンク\"\r\n          else if r._field == \"dc_ball_chain_5\" then \"紫\"\r\n          else if r._field == \"dc_ball_chain_6\" then \"白\"\r\n          else if r._field == \"dc_ball_chain_7\" then \"水色\"\r\n          else if r._field == \"dc_ball_chain_8\" then \"灰桜\"\r\n          else if r._field == \"dc_ball_chain_9\" then \"群青\"\r\n          else if r._field == \"dc_ball_chain_10\" then \"赤\"\r\n          else if r._field == \"dc_ball_chain_11\" then \"クリーム\"\r\n          else if r._field == \"dc_ball_chain_12\" then \"ミント\"\r\n          else if r._field == \"dc_ball_chain_13\" then \"ピーチ\"\r\n          else if r._field == \"dc_ball_chain_14\" then \"星空\"\r\n          else if r._field == \"dc_ball_chain_15\" then \"草原\"\r\n          else if r._field == \"dc_ball_chain_16\" then \"黒\"\r\n          else if r._field == \"dc_ball_chain_17\" then \"黄色\"\r\n          else if r._field == \"dc_ball_chain_18\" then \"ラベンダー\"\r\n          else if r._field == \"dc_ball_chain_19\" then \"ライム\"\r\n          else if r._field == \"dc_ball_chain_20\" then \"若葉\"\r\n          else if r._field == \"dc_ball_chain_70\" then \"参照エラー\"\r\n          else if r._field == \"dc_ball_chain_71\" then \"デベロッパー\"\r\n          else if r._field == \"dc_ball_chain_90\" then \"旧緑\"\r\n          else if r._field == \"dc_ball_chain_91\" then \"橙（特殊）\"\r\n          else if r._field == \"dc_ball_chain_100\" then \"ゴールデン\"\r\n          else if r._field == \"dc_ball_chain_101\" then \"アメジスト\"\r\n          else if r._field == \"dc_ball_chain_102\" then \"エメラルド\"\r\n          else if r._field == \"dc_ball_chain_103\" then \"ローズクォーツ\"\r\n          else if r._field == \"dc_ball_chain_104\" then \"トパーズ\"\r\n          else if r._field == \"dc_ball_chain_105\" then \"サファイア\"\r\n          else if r._field == \"dc_ball_chain_106\" then \"ダイヤモンド\"\r\n          else if r._field == \"dc_ball_chain_334\" then \"抽選ボール\"\r\n          else if r._field == \"dc_ball_chain_335\" then \"抽選（ボーナス）\"\r\n          else strings.replace(v: r._field, t: \"dc_ball_chain_\", u: \"ID:\", i: 1)\r\n      }))\r\n  |> keep(columns: [\"_time\", \"_field\", \"_value\"])\r\n  |> pivot(rowKey:[\"_time\"], columnKey: [\"_field\"], valueColumn: \"_value\")\r\n  |> drop(columns: [\"_time\"])\r\n",
           "refId": "A"
         }
       ],
@@ -5043,7 +5064,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -5115,6 +5136,7 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "overflow": "ellipsis",
           "placement": "right",
           "showLegend": true
         },
@@ -5130,7 +5152,7 @@
         "xTickLabelRotation": 0,
         "xTickLabelSpacing": 100
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -5204,6 +5226,7 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "overflow": "ellipsis",
           "placement": "right",
           "showLegend": true
         },
@@ -5219,7 +5242,7 @@
         "xTickLabelRotation": 0,
         "xTickLabelSpacing": 100
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -5279,7 +5302,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -5356,6 +5379,7 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -5370,7 +5394,7 @@
         "xTickLabelRotation": 0,
         "xTickLabelSpacing": 100
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -5460,6 +5484,8 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "enableFacetedFilter": false,
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -5469,7 +5495,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -5532,7 +5558,7 @@
         "textMode": "auto",
         "wideLayout": true
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -5621,6 +5647,8 @@
         "legend": {
           "calcs": [],
           "displayMode": "list",
+          "enableFacetedFilter": false,
+          "overflow": "ellipsis",
           "placement": "bottom",
           "showLegend": false
         },
@@ -5630,7 +5658,7 @@
           "sort": "none"
         }
       },
-      "pluginVersion": "13.0.1",
+      "pluginVersion": "13.1.1",
       "targets": [
         {
           "datasource": {
@@ -5703,7 +5731,7 @@
   },
   "timezone": "browser",
   "title": "でかプ実績",
-  "version": 95,
+  "version": 97,
   "uid": "3c5b522f-0576-4cf2-8bfa-bb3faf99c710",
   "id": 1
 }
