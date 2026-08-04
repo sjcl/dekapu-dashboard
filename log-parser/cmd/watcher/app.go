@@ -20,6 +20,18 @@ import (
 	"log-parser/internal/watcher"
 )
 
+func accessConfigFromEnv() (influx.AccessConfig, error) {
+	c := influx.AccessConfig{
+		ClientID:     os.Getenv("CF_ACCESS_CLIENT_ID"),
+		ClientSecret: os.Getenv("CF_ACCESS_CLIENT_SECRET"),
+	}
+	if (c.ClientID == "") != (c.ClientSecret == "") {
+		return influx.AccessConfig{}, fmt.Errorf(
+			"CF_ACCESS_CLIENT_ID and CF_ACCESS_CLIENT_SECRET must be set together")
+	}
+	return c, nil
+}
+
 func runApp(ctx context.Context, dataDir string) error {
 	logDir, err := envutil.Get("VRCHAT_LOG_DIR")
 	if err != nil {
@@ -41,12 +53,19 @@ func runApp(ctx context.Context, dataDir string) error {
 	if err != nil {
 		return err
 	}
+	influxAccess, err := accessConfigFromEnv()
+	if err != nil {
+		return err
+	}
+	if influxAccess.Enabled() {
+		log.Printf("InfluxDB: Cloudflare Access service token enabled")
+	}
 
 	if err := os.MkdirAll(dataDir, 0o755); err != nil {
 		return fmt.Errorf("failed to create data dir: %w", err)
 	}
 
-	influxWriter := influx.NewWriter(influxURL, influxToken, influxOrg, influxBucket)
+	influxWriter := influx.NewWriter(influxURL, influxToken, influxOrg, influxBucket, influxAccess)
 	defer influxWriter.Close()
 
 	cloudRepo := cloudsave.NewJSONRepository(filepath.Join(dataDir, "cloudsave.json"))

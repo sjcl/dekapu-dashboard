@@ -29,12 +29,15 @@ func main() {
 
 	logDir := envutil.Require("VRCHAT_LOG_DIR")
 
-	opts := influxdb2.DefaultOptions().
-		SetHTTPRequestTimeout(uint(10 * time.Second / time.Millisecond))
-	client := influxdb2.NewClientWithOptions(
+	access, err := accessConfigFromEnv()
+	if err != nil {
+		log.Fatalf("[Loader] %v", err)
+	}
+	client := influx.NewClient(
 		envutil.Require("INFLUXDB_URL"),
 		envutil.Require("INFLUXDB_TOKEN"),
-		opts,
+		10*time.Second,
+		access,
 	)
 	defer client.Close()
 
@@ -164,6 +167,18 @@ func writeWithRetry(api influx.BlockingWriteAPI, rec *model.MmpSaveRecord, delta
 		}
 	}
 	return fmt.Errorf("write failed after %d attempts", maxRetry)
+}
+
+func accessConfigFromEnv() (influx.AccessConfig, error) {
+	c := influx.AccessConfig{
+		ClientID:     os.Getenv("CF_ACCESS_CLIENT_ID"),
+		ClientSecret: os.Getenv("CF_ACCESS_CLIENT_SECRET"),
+	}
+	if (c.ClientID == "") != (c.ClientSecret == "") {
+		return influx.AccessConfig{}, fmt.Errorf(
+			"CF_ACCESS_CLIENT_ID and CF_ACCESS_CLIENT_SECRET must be set together")
+	}
+	return c, nil
 }
 
 // collectLogFiles returns output_log_*.txt files sorted ascending by path.
