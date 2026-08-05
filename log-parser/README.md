@@ -15,6 +15,40 @@
 ./watcher
 ```
 
+Windowsサービスとして登録して動かす場合（`watcher.exe --install`）は、カレントディレクトリではなく
+`%LocalAppData%\dekapu-log-parser\.env` が読み込まれます。
+
+### Cloudflare Access 経由でInfluxDBに接続する場合
+
+送信先のInfluxDBを Cloudflare Access で保護している場合は、Service Token を発行して
+`.env` に以下を設定してください。設定するとInfluxDBへの全リクエストに
+`CF-Access-Client-Id` / `CF-Access-Client-Secret` ヘッダが付与されます。
+
+```ini
+CF_ACCESS_CLIENT_ID=xxxxxxxx.access
+CF_ACCESS_CLIENT_SECRET=yyyyyyyy
+```
+
+2つとも未設定の場合はヘッダを付与せず従来通り動作します。片方だけ設定した場合は
+設定ミスの検知のため起動時にエラーで終了します。
+
+### 書き込みタイムアウトの調整
+
+InfluxDBをインターネット経由（Cloudflare Tunnel など）で参照している場合、
+以下のような書き込みエラーがログに記録されることがあります。
+
+```
+[InfluxDB] Write error: Post "https://.../api/v2/write?...": context deadline exceeded
+```
+
+この場合バッチは保持されリトライされるためデータは失われませんが、
+`INFLUXDB_TIMEOUT_SECONDS` でHTTPリクエストのタイムアウトを延長できます。
+未設定時の既定値は watcher が30秒、ローダーが60秒です。
+
+```ini
+INFLUXDB_TIMEOUT_SECONDS=30
+```
+
 ## 過去データのロード機能
 
 ログパーサーは新しく追記されたログのみを逐次解析し、過去のログファイルの内容は自動的には処理しません。これはDBにデータが重複して記録されることを防止するためです。

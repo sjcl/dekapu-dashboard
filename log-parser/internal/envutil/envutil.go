@@ -4,7 +4,9 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strconv"
 	"strings"
+	"time"
 )
 
 func Require(key string) string {
@@ -20,6 +22,19 @@ func Get(key string) (string, error) {
 		return v, nil
 	}
 	return "", fmt.Errorf("required environment variable %s is not set", key)
+}
+
+func Seconds(key string, def time.Duration) time.Duration {
+	v := strings.TrimSpace(os.Getenv(key))
+	if v == "" {
+		return def
+	}
+	n, err := strconv.Atoi(v)
+	if err != nil || n <= 0 {
+		log.Printf("Invalid %s=%q, using %s", key, v, def)
+		return def
+	}
+	return time.Duration(n) * time.Second
 }
 
 func Bool(key string, def bool) bool {

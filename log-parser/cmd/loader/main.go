@@ -36,7 +36,7 @@ func main() {
 	client := influx.NewClient(
 		envutil.Require("INFLUXDB_URL"),
 		envutil.Require("INFLUXDB_TOKEN"),
-		10*time.Second,
+		envutil.Seconds("INFLUXDB_TIMEOUT_SECONDS", 60*time.Second),
 		access,
 	)
 	defer client.Close()

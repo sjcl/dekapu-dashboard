@@ -65,7 +65,8 @@ func runApp(ctx context.Context, dataDir string) error {
 		return fmt.Errorf("failed to create data dir: %w", err)
 	}
 
-	influxWriter := influx.NewWriter(influxURL, influxToken, influxOrg, influxBucket, influxAccess)
+	influxTimeout := envutil.Seconds("INFLUXDB_TIMEOUT_SECONDS", 30*time.Second)
+	influxWriter := influx.NewWriter(influxURL, influxToken, influxOrg, influxBucket, influxTimeout, influxAccess)
 	defer influxWriter.Close()
 
 	cloudRepo := cloudsave.NewJSONRepository(filepath.Join(dataDir, "cloudsave.json"))

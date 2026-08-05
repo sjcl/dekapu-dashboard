@@ -13,6 +13,8 @@ import (
 	"github.com/influxdata/influxdb-client-go/v2/api/write"
 )
 
+const defaultFlushInterval = 5 * time.Second
+
 type PointWriter interface {
 	WritePoint(point *write.Point)
 }
@@ -42,27 +44,42 @@ func (d *accessHeaderDoer) Do(req *http.Request) (*http.Response, error) {
 	return d.next.Do(req)
 }
 
+func newTransport() *http.Transport {
+	return &http.Transport{
+		Proxy: http.ProxyFromEnvironment,
+		DialContext: (&net.Dialer{
+			Timeout:   5 * time.Second,
+			KeepAlive: 30 * time.Second,
+		}).DialContext,
+		ForceAttemptHTTP2:     true,
+		TLSHandshakeTimeout:   10 * time.Second,
+		MaxIdleConns:          100,
+		MaxIdleConnsPerHost:   100,
+		IdleConnTimeout:       10 * time.Minute,
+		ExpectContinueTimeout: 1 * time.Second,
+	}
+}
+
 func NewClient(influxURL, token string, timeout time.Duration, access AccessConfig) influxdb2.Client {
 	opts := influxdb2.DefaultOptions().
-		SetHTTPRequestTimeout(uint(timeout / time.Millisecond))
+		SetHTTPRequestTimeout(uint(timeout / time.Millisecond)).
+		SetUseGZip(true).
+		SetFlushInterval(uint(defaultFlushInterval / time.Millisecond))
 
+	httpClient := &http.Client{
+		Timeout:   timeout,
+		Transport: newTransport(),
+	}
+
+	var doer ihttp.Doer = httpClient
 	if access.Enabled() {
-		opts.HTTPOptions().SetHTTPDoer(&accessHeaderDoer{
-			next: &http.Client{
-				Timeout: timeout,
-				Transport: &http.Transport{
-					Proxy:               http.ProxyFromEnvironment,
-					DialContext:         (&net.Dialer{Timeout: 5 * time.Second}).DialContext,
-					TLSHandshakeTimeout: 5 * time.Second,
-					MaxIdleConns:        100,
-					MaxIdleConnsPerHost: 100,
-					IdleConnTimeout:     90 * time.Second,
-				},
-			},
+		doer = &accessHeaderDoer{
+			next:         httpClient,
 			clientID:     access.ClientID,
 			clientSecret: access.ClientSecret,
-		})
+		}
 	}
+	opts.HTTPOptions().SetHTTPDoer(doer)
 
 	return influxdb2.NewClientWithOptions(influxURL, token, opts)
 }
@@ -72,8 +89,8 @@ type Writer struct {
 	writeAPI api.WriteAPI
 }
 
-func NewWriter(influxURL, token, org, bucket string, access AccessConfig) *Writer {
-	client := NewClient(influxURL, token, 5*time.Second, access)
+func NewWriter(influxURL, token, org, bucket string, timeout time.Duration, access AccessConfig) *Writer {
+	client := NewClient(influxURL, token, timeout, access)
 	writeAPI := client.WriteAPI(org, bucket)
 
 	w := &Writer{client: client, writeAPI: writeAPI}
