@@ -196,6 +196,7 @@ type MmpSaveData struct {
 	DcFerlotUseitem IntMap `json:"dc_ferlot_useitem,omitempty"` // 種類別アイテムポケット使用数
 
 	GetMedalTower *int `json:"get_medaltower,omitempty"` // メダルタワー獲得数
+	FrtAll        *int `json:"frt_all,omitempty"`        // でかプの苗木獲得数
 }
 
 func (d *MmpSaveData) DumpForInflux() map[string]any {
