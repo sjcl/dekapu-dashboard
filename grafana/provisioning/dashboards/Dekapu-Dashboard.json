@@ -43,7 +43,7 @@
         "x": 0,
         "y": 0
       },
-      "id": 90,
+      "id": 91,
       "title": "統計",
       "type": "row"
     },
@@ -497,7 +497,7 @@
       },
       "gridPos": {
         "h": 8,
-        "w": 12,
+        "w": 9,
         "x": 6,
         "y": 8
       },
@@ -571,9 +571,9 @@
         }
       },
       "gridPos": {
-        "h": 14,
-        "w": 6,
-        "x": 18,
+        "h": 11,
+        "w": 9,
+        "x": 15,
         "y": 8
       },
       "id": 24,
@@ -1168,66 +1168,6 @@
       "gridPos": {
         "h": 3,
         "w": 3,
-        "x": 15,
-        "y": 16
-      },
-      "id": 89,
-      "options": {
-        "colorMode": "value",
-        "graphMode": "area",
-        "justifyMode": "auto",
-        "orientation": "auto",
-        "percentChangeColorMode": "standard",
-        "reduceOptions": {
-          "calcs": [
-            "lastNotNull"
-          ],
-          "fields": "",
-          "values": false
-        },
-        "showPercentChange": false,
-        "textMode": "auto",
-        "wideLayout": true
-      },
-      "pluginVersion": "13.1.1",
-      "targets": [
-        {
-          "datasource": {
-            "type": "influxdb",
-            "uid": "beyps6l9ombk0e"
-          },
-          "query": "from(bucket: \"dekapu-log\")\r\n  |> range(start: -1d)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\")\r\n  |> filter(fn: (r) => r._field == \"get_medaltower\")\r\n  |> filter(fn: (r) => r.user == \"${user}\")\r\n  |> last()\r\n",
-          "refId": "A"
-        }
-      ],
-      "title": "メダルタワー獲得数",
-      "type": "stat"
-    },
-    {
-      "datasource": {
-        "type": "influxdb",
-        "uid": "beyps6l9ombk0e"
-      },
-      "fieldConfig": {
-        "defaults": {
-          "color": {
-            "mode": "thresholds"
-          },
-          "thresholds": {
-            "mode": "absolute",
-            "steps": [
-              {
-                "color": "green",
-                "value": 0
-              }
-            ]
-          },
-          "unit": "locale"
-        }
-      },
-      "gridPos": {
-        "h": 3,
-        "w": 3,
         "x": 0,
         "y": 19
       },
@@ -1564,6 +1504,126 @@
       "type": "stat"
     },
     {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "beyps6l9ombk0e"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          },
+          "unit": "locale"
+        }
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 18,
+        "y": 19
+      },
+      "id": 89,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "percentChangeColorMode": "standard",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showPercentChange": false,
+        "textMode": "auto",
+        "wideLayout": true
+      },
+      "pluginVersion": "13.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "influxdb",
+            "uid": "beyps6l9ombk0e"
+          },
+          "query": "from(bucket: \"dekapu-log\")\r\n  |> range(start: -1d)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\")\r\n  |> filter(fn: (r) => r._field == \"get_medaltower\")\r\n  |> filter(fn: (r) => r.user == \"${user}\")\r\n  |> last()\r\n",
+          "refId": "A"
+        }
+      ],
+      "title": "メダルタワー獲得数",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "beyps6l9ombk0e"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              }
+            ]
+          },
+          "unit": "locale"
+        }
+      },
+      "gridPos": {
+        "h": 3,
+        "w": 3,
+        "x": 21,
+        "y": 19
+      },
+      "id": 90,
+      "options": {
+        "colorMode": "value",
+        "graphMode": "area",
+        "justifyMode": "auto",
+        "orientation": "auto",
+        "percentChangeColorMode": "standard",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showPercentChange": false,
+        "textMode": "auto",
+        "wideLayout": true
+      },
+      "pluginVersion": "13.1.1",
+      "targets": [
+        {
+          "datasource": {
+            "type": "influxdb",
+            "uid": "beyps6l9ombk0e"
+          },
+          "query": "from(bucket: \"dekapu-log\")\r\n  |> range(start: -1d)\r\n  |> filter(fn: (r) => r._measurement == \"mpp-savedata\")\r\n  |> filter(fn: (r) => r._field == \"frt_all\")\r\n  |> filter(fn: (r) => r.user == \"${user}\")\r\n  |> last()\r\n",
+          "refId": "A"
+        }
+      ],
+      "title": "でかプの苗木",
+      "type": "stat"
+    },
+    {
       "collapsed": false,
       "gridPos": {
         "h": 1,
@@ -1571,7 +1631,7 @@
         "x": 0,
         "y": 22
       },
-      "id": 91,
+      "id": 92,
       "title": "JACKPOT",
       "type": "row"
     },
@@ -3492,7 +3552,7 @@
         "x": 0,
         "y": 46
       },
-      "id": 92,
+      "id": 93,
       "title": "すごろく",
       "type": "row"
     },
@@ -4179,7 +4239,7 @@
         "x": 0,
         "y": 56
       },
-      "id": 93,
+      "id": 94,
       "title": "トーテム",
       "type": "row"
     },
@@ -4412,7 +4472,7 @@
         "x": 0,
         "y": 63
       },
-      "id": 94,
+      "id": 95,
       "title": "ボール",
       "type": "row"
     },
@@ -5014,7 +5074,7 @@
         "x": 0,
         "y": 88
       },
-      "id": 95,
+      "id": 96,
       "title": "メダル",
       "type": "row"
     },
@@ -5731,7 +5791,7 @@
   },
   "timezone": "browser",
   "title": "でかプ実績",
-  "version": 97,
+  "version": 99,
   "uid": "3c5b522f-0576-4cf2-8bfa-bb3faf99c710",
   "id": 1
 }
