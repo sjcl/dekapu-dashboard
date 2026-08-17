@@ -1,0 +1,45 @@
+name: Release log-parser
+
+on:
+  push:
+    tags:
+      - 'v*-sjcl.*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: log-parser
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: log-parser/go.mod
+
+      - name: Build Windows binaries
+        env:
+          GOOS: windows
+          GOARCH: amd64
+          CGO_ENABLED: 0
+        run: |
+          mkdir -p dist
+          go build -trimpath -ldflags="-s -w -X main.version=${{ github.ref_name }}" -o dist/watcher.exe ./cmd/watcher
+          go build -trimpath -ldflags="-s -w -X main.version=${{ github.ref_name }}" -o dist/loader.exe ./cmd/loader
+          cp .env.template README.md dist/
+
+      - name: Zip
+        run: |
+          cd dist
+          zip -r "../log-parser-${{ github.ref_name }}.zip" .
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "log-parser ${{ github.ref_name }}"
+          files: log-parser/log-parser-*.zip
+          generate_release_notes: true

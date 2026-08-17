@@ -24,8 +24,12 @@ import (
 	"log-parser/internal/parser"
 )
 
+var version = "dev"
+
 func main() {
 	_ = godotenv.Load()
+
+	log.Printf("[Loader] version %s", version)
 
 	logDir := envutil.Require("VRCHAT_LOG_DIR")
 

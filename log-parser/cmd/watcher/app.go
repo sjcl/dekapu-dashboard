@@ -100,6 +100,6 @@ func runApp(ctx context.Context, dataDir string) error {
 	offsetRepo := offset.NewJSONRepository(filepath.Join(dataDir, "offsets.json"))
 	w := watcher.NewLogWatcher(logDir, newHandler, offsetRepo, true)
 
-	log.Printf("Starting watcher. Log dir: %s", logDir)
+	log.Printf("Starting watcher %s. Log dir: %s", version, logDir)
 	return w.Run(ctx)
 }
